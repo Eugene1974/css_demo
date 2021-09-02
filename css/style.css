@@ -3,7 +3,7 @@
   src: url(../fonts/Chantelli_Antiqua-webfont.woff) format('woff'), url(../fonts/Chantelli_Antiqua-webfont.ttf) format('truetype');
 }
 
-h1 {
+#main-heading {
   font-family: 'CHANTELLI ANTIQUA';
   font-family: 'Lemonada', cursive;
   text-transform: capitalize;
@@ -21,6 +21,37 @@ p {
   color: black;
 }
 
+.upperDiv {
+  background-color: grey;
+  width: 50%;
+}
+
+.upperDiv p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.middleDiv {
+  background-color: pink;
+  width: 75%;
+}
+
+.middleDiv p {
+  text-align: left;
+  font-size: 24px;
+}
+
+.lowerDiv {
+  background-color: lightblue;
+  width: 90%;
+}
+
+.lowerDiv p {
+  text-align: right;
+  font-size: 15px;
+  width: 90%;
+}
+
 .special {
   color: black;
   font-weight: bold;
@@ -36,36 +67,38 @@ span {
   font-weight: bold;
 }
 
-#myBtn {
-  display: inline-block;
+/* #myBtn {
+  display: none;
   /* Hidden by default */
-  position: fixed;
-  /* Fixed/sticky position */
-  bottom: 20px;
-  /* Place the button at the bottom of the page */
-  right: 30px;
-  /* Place the button 30px from the right */
-  z-index: 99;
-  /* Make sure it does not overlap */
-  border: none;
-  /* Remove borders */
-  outline: none;
-  /* Remove outline */
-  background-color: red;
-  /* Set a background color */
-  color: white;
-  /* Text color */
-  cursor: pointer;
-  /* Add a mouse pointer on hover */
-  padding: 15px;
-  /* Some padding */
-  border-radius: 10px;
-  /* Rounded corners */
-  font-size: 18px;
-  /* Increase font size */
+position: fixed;
+/* Fixed/sticky position */
+bottom: 20px;
+/* Place the button at the bottom of the page */
+right: 30px;
+/* Place the button 30px from the right */
+z-index: 99;
+/* Make sure it does not overlap */
+border: none;
+/* Remove borders */
+outline: none;
+/* Remove outline */
+background-color: red;
+/* Set a background color */
+color: white;
+/* Text color */
+cursor: pointer;
+/* Add a mouse pointer on hover */
+padding: 15px;
+/* Some padding */
+border-radius: 10px;
+/* Rounded corners */
+font-size: 18px;
+/* Increase font size */
 }
 
 #myBtn:hover {
   background-color: #555;
   /* Add a dark-grey background on hover */
 }
+
+*/
