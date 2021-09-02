@@ -1,8 +1,10 @@
-p {
-  color: blue;
-  font-family: Ariel;
+@font-face {
+  font-family: 'CHANTELLI ANTIQUA';
+  src: url(../fonts/Chantelli_Antiqua-webfont.woff) format('woff'), url(../fonts/Chantelli_Antiqua-webfont.ttf) format('truetype');
 }
 
 h1 {
-  color: red;
+  font-size: 24px;
+  font-family: 'CHANTELLI ANTIQUA';
+  font-family: 'Lemonada', cursive;
 }
