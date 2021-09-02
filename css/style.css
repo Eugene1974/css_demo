@@ -4,7 +4,19 @@
 }
 
 h1 {
-  font-size: 24px;
   font-family: 'CHANTELLI ANTIQUA';
   font-family: 'Lemonada', cursive;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  color: DodgerBlue;
+}
+
+p {
+  font-family: Ariel;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  color: red;
 }
